@@ -14,7 +14,7 @@ public class Company {
 
         employees[3].setSalary(7500);
 
-        System.out.println("\nEmplyees:"); //wyswietla dane dla wszystkich pracownikow
+        System.out.println("\nEmployees:"); //wyswietla dane dla wszystkich pracownikow
         for (Employee employee : employees) {
             if (employee != null) {
                 System.out.println(employee);
