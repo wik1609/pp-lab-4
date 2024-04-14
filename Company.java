@@ -3,7 +3,7 @@ import employees.Manager;
 import employees.Worker;
 public class Company {
     public static void main(String[] args) {
-        Employee[] employees = new Employee[12]; //tablica zmieniona na 7 pracownikow
+        Employee[] employees = new Employee[12]; //tablica zmieniona na 12 pracownikow
         employees[0] = new Manager("Jan Tura" , 4000); //zmodyfikowane jako dodanie managera dla indeksu 0
         employees[1] = new Worker("Konrad Duda", 5000, "Technik"); //zmodyfikowane jako dodanie Worker
         employees[2] = new Employee("Kuba Dym", 6000);
