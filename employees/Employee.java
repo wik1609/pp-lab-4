@@ -11,7 +11,7 @@ public class Employee {
     public String getFullName() { //zwracanie employee
         return fullName;
     }
-    public double getSalary() {
+    public double getSalary() { //zwracanie salary
         return salary;
     }
 
